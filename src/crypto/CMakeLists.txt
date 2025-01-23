@@ -1,0 +1,5 @@
+if(PRIVACY_PASS)
+    include(${CMAKE_CURRENT_LIST_DIR}/privacy_pass/CMakeLists.txt)
+else()
+    include(${CMAKE_CURRENT_LIST_DIR}/gvrfs/CMakeLists.txt)
+endif()
